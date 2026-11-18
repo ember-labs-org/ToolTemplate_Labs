@@ -1,0 +1,23 @@
+# Secrets: never commit these
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies and build output
+node_modules/
+__pycache__/
+.venv/
+dist/
+
+# Large raw files: keep originals outside the repo and commit only the pre-built files the tool needs
+data/raw/
+*.zip
